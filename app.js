@@ -9,4 +9,8 @@ $(document).ready(function(){
 		$(this).parent('.container').remove();
 		console.log("Delete click");
 	})
+	$('#holder').on('click','.change',function(){
+		$(this).parent('.container').toggleClass('selected');
+	})
+
 });

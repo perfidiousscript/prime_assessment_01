@@ -1,8 +1,8 @@
 .container {
-	color:yellow;
+	background-color:yellow;
 }
 
 
 .selected{
-	color: red;
+	background-color: red;
 }
