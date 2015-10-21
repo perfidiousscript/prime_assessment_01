@@ -1,3 +1,8 @@
+var numContainers = 0;
+
 $(document).ready(function(){
-	console.log("hello world");
+	$("body").on('click','button', function(){
+		numContainers++;
+		$("#holder").append("<div><span>"+ numContainers +"</span></div>");
+	})
 });
